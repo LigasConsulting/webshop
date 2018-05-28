@@ -1,6 +1,6 @@
 {
   "id": "webshop",
-  "image": "wedeploy/hosting:2.0.0",
+  "image": "wedeploy/hosting:2.0.1",
   "env": {
     "WEDEPLOY_WEB_PATH": "./dist"
   }
