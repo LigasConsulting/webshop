@@ -19,8 +19,9 @@
     },
     "dependencies": {
         "bootstrap": "4.1.1",
+        "jquery": "3.3.1",
         "popper.js": "^1.14.3",
-        "jquery": "3.3.1"
+        "wedeploy": "^4.4.0"
     },
     "devDependencies": {
         "browser-sync": "2.24.2",
