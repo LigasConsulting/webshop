@@ -1,3 +1,27 @@
-[
+{
+  "header": {
+    "title": "This is title",
+    "subtitle": "This is the subtitle"
+  },
+  "sections": [
+    {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
+      "label": "For those about to rock...",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Rationevoluptatum molestiae adipisci, beatae obcaecati."
+    },
+    {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
+      "label": "For those about to rock...",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Rationevoluptatum molestiae adipisci, beatae obcaecati."
+    },
+    {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
+      "label": "For those about to rock...",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Rationevoluptatum molestiae adipisci, beatae obcaecati."
+    }
+  ],
+  "footer": {
+    "copyright": "Copyright © My shop 2018"
+  }
+}
 
-]
