@@ -24,3 +24,6 @@ function globalMailTest(){
 
 }
 
+
+window.WEBSHP = {};
+window.WEBSHP.globalMailTest = globalMailTest;
