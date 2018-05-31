@@ -1,70 +1,36 @@
 import React from 'react'
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-} from 'react-router-dom'
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import Home from "./components/web/Home";
+import Shop from "./components/shop/Shop";
+import About from "./components/web/About";
 
-const Home = () => (
-    <div>
-        <h2>Home</h2>
-    </div>
-)
-
-const About = () => (
-    <div>
-        <h2>About</h2>
-    </div>
-)
-
-const Topic = ({ match }) => (
-    <div>
-        <h3>{match.params.topicId}</h3>
-    </div>
-)
-
-const Topics = ({ match }) => (
-    <div>
-        <h2>Topics</h2>
-        <ul>
-            <li>
-                <Link to={`${match.url}/rendering`}>
-                    Rendering with React
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/components`}>
-                    Components
-                </Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/props-v-state`}>
-                    Props v. State
-                </Link>
-            </li>
-        </ul>
-
-        <Route path={`${match.path}/:topicId`} component={Topic}/>
-        <Route exact path={match.path} render={() => (
-            <h3>Please select a topic.</h3>
-        )}/>
-    </div>
-)
 
 const App = () => (
     <Router>
         <div>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/topics">Topics</Link></li>
-            </ul>
-
-            <hr/>
-
+            <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+                <div className="container">
+                    <Link className="navbar-brand" to="/">My shop</Link>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"/>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/shop">Shop</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about">About</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <Route exact path="/" component={Home}/>
+            <Route path="/shop" component={Shop}/>
             <Route path="/about" component={About}/>
-            <Route path="/topics" component={Topics}/>
         </div>
     </Router>
 )
