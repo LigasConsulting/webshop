@@ -25,7 +25,7 @@ const Shop = () => {
             row.push(<Row>{col}</Row>)
         }
         return row
-    }
+    };
 
     return (
         <Container>
