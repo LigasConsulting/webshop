@@ -3,6 +3,7 @@ import {Col, Container, Row} from 'reactstrap';
 import Item from './Item';
 
 import shopItemsData from '../../assets/shop-item-data';
+import Hero from "../common/Hero";
 
 const Shop = () => {
 

@@ -14,7 +14,7 @@ const ItemDetail = ({match}) => {
             <h2>Price: {this.article.price}</h2>
             <ShopContext.Consumer>
                 {({addItem}) => (
-                    <Button onClick={() => addItem(this.article.id)}>
+                    <Button onClick={() => addItem(this.article)}>
                         Add to shopping cart
                     </Button>
                 )}

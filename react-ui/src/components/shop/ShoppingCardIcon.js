@@ -1,6 +1,7 @@
 import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import {ShopContext} from "../../ShopContext";
+import {Route} from "react-router-dom";
 
 
 const ShoppingCardIcon = (props) => {
@@ -15,14 +16,18 @@ const ShoppingCardIcon = (props) => {
     };
 
     return (
-        <div className={props.className}>
-            <div className="fa-layers  fa-2x">
-                <FontAwesomeIcon icon="shopping-cart"/>
-                <ShopContext.Consumer>
-                    {({items}) => this.getCount(items)}
-                </ShopContext.Consumer>
+        <Route render={({ history}) => (
+            <div className={props.className}
+                 onClick={() => { history.push('/shopping-cart') }}
+            >
+                <div className="fa-layers  fa-2x">
+                    <FontAwesomeIcon icon="shopping-cart"/>
+                    <ShopContext.Consumer>
+                        {({items}) => this.getCount(items)}
+                    </ShopContext.Consumer>
+                </div>
             </div>
-        </div>
+        )} />
     );
 };
 

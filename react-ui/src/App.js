@@ -6,11 +6,13 @@ import faShoppingCart from '@fortawesome/fontawesome-free-solid/faShoppingCart'
 import faSquare from '@fortawesome/fontawesome-free-solid/faSquare'
 import faCheck from '@fortawesome/fontawesome-free-solid/faCheck'
 
+import {withHero} from "./components/common/Hero";
 import Home from "./components/web/Home";
 import Shop from "./components/shop/Shop";
 import About from "./components/web/About";
 import Navigation from "./components/web/Navigation";
 import ItemDetail from "./components/shop/ItemDetail";
+import ShoppingCard from "./components/shop/ShoppingCard";
 import {ShopContext} from "./ShopContext";
 
 fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck);
@@ -19,13 +21,13 @@ class App extends React.Component {
     constructor(props) {
         super(props);
 
-        this.addItem = (id) => {
+        this.addItem = (newItem) => {
             this.setState(state => {
-                    let entry = state.items.find(item => item.id = id);
+                    let entry = state.items.find(item => item.id = newItem.id);
                     if (entry) {
                         entry.count++;
                     } else {
-                        state.items.push({id: id, count: 1});
+                        state.items.push(Object.assign({}, newItem, {count:1}));
                     }
                     return {
                         items: state.items
@@ -57,10 +59,11 @@ class App extends React.Component {
                 <ShopContext.Provider value={this.state}>
                     <Navigation/>
                     <Route exact path={'/'} component={Home}/>
-                    <Route path={'/about'} component={About}/>
+                    <Route path={'/about'} component={withHero(About)}/>
+                    <Route path={'/shopping-cart'} component={withHero(ShoppingCard)}/>
 
-                    <Route exact path={'/shop'} component={Shop}/>
-                    <Route exact path={'/shop/:itemId'} component={ItemDetail}/>
+                    <Route exact path={'/shop'} component={withHero(Shop)}/>
+                    <Route exact path={'/shop/:itemId'} component={withHero(ItemDetail)}/>
                 </ShopContext.Provider>
             </Router>
         );

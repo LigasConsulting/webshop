@@ -4,7 +4,7 @@
     "title": "test title",
     "subtitle": "subtitel",
     "description": "description",
-    "price": "35GBP",
+    "price": "35",
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
     "images":[
       {
@@ -32,7 +32,27 @@
     "title": "test title",
     "subtitle": "subtitel",
     "description": "description",
-    "price": "35GBP",
-    "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg"
+    "price": "35",
+    "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
+    "images":[
+      {
+        "src": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
+        "altText": "Slide 1",
+        "caption": "Slide 1",
+        "header": "Slide 1 Header"
+      },
+      {
+        "src": "http://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
+        "altText": "Slide 2",
+        "caption": "Slide 2",
+        "header": "Slide 2 Header"
+      },
+      {
+        "src": "http://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
+        "altText": "Slide 3",
+        "caption": "Slide 3",
+        "header": "Slide 3 Header"
+      }
+    ]
   }
 ]
