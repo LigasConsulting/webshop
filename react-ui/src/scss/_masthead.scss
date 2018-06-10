@@ -1,7 +1,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../assets/img/new-truck-layer.png');
+  background-image: url('../assets/img/main-big.png');
   background-position: center center;
   @include background-cover;
   hr {
@@ -14,6 +14,12 @@ header.masthead {
   p {
     font-weight: 300;
   }
+
+  .text-bg{
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+  }
+
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;

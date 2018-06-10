@@ -27,21 +27,21 @@ class Navigation extends PureComponent {
             <Navbar dark={true} expand={'lg'} fixed={'top'} className="navbar-custom">
                 <Container>
                     <NavbarBrand href="/"><img src={logoImg} /></NavbarBrand>
-                    <NavbarBrand href="/">My shop</NavbarBrand>
-                    <ShoppingCardIcon />
+                    <NavbarBrand href="/">Toy Truck</NavbarBrand>
+                    {/*<ShoppingCardIcon />*/}
                     <NavbarToggler onClick={this.toggleNavbar}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar className={'ml-auto'}>
-                            <NavItem>
+                  {/*          <NavItem>
                                 <NavLink tag={Link} to="/shop">
                                     Shop
                                 </NavLink>
-                            </NavItem>
-                            <NavItem>
+                            </NavItem>*/}
+          {/*                  <NavItem>
                                 <NavLink tag={Link} to="/about">
-                                    About
+                                    About us
                                 </NavLink>
-                            </NavItem>
+                            </NavItem>*/}
                         </Nav>
                     </Collapse>
                 </Container>

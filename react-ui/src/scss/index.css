@@ -41,7 +41,7 @@ h6 {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../assets/img/new-truck-layer.png");
+  background-image: url("../assets/img/main-big.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -54,6 +54,9 @@ header.masthead {
     font-size: 2rem; }
   header.masthead p {
     font-weight: 300; }
+  header.masthead .text-bg {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); }
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem; } }
@@ -70,22 +73,22 @@ header.masthead {
       font-size: 4rem; } }
 
 .bg-primary {
-  background-color: #ee0979 !important; }
+  background-color: #c20d18 !important; }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979; }
+  background-color: #c20d18;
+  border-color: #c20d18; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #bd0760 !important;
-    border-color: #bd0760 !important; }
+    background-color: #920a12 !important;
+    border-color: #920a12 !important; }
   .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(194, 13, 24, 0.5); }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00; }
+  background-color: #5367b0;
+  border-color: #5367b0; }
   .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-    background-color: #cc5500 !important;
-    border-color: #cc5500 !important; }
+    background-color: #41528f !important;
+    border-color: #41528f !important; }
   .btn-secondary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(83, 103, 176, 0.5); }
