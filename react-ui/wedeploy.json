@@ -1,7 +1,7 @@
 {
   "id": "ui",
   "image": "wedeploy/hosting:2.0.1",
-  "customDomains": ["toy-truck.co.uk", "www.toy-truck.co.uk"],
+  "customDomains": ["www.toy-truck.co.uk"],
   "env": {
     "WEDEPLOY_WEB_PATH": "./build"
   }
