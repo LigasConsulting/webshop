@@ -3,28 +3,33 @@
     "title": "Welcome to Toy Truck ",
     "subtitle": "Want to take a ride on out tipper trucks?"
   },
-  "sections": [
-    {
+  "sections": {
+    "heavyDuty": {
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
       "label": "Heavy duty car for every job",
       "text": "The toy Tatra tipper truck can handle load up to 220lb (100kg) so that not only the kids can have fun with them."
     },
-    {
+    "madeInEU":{
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
       "label": "High quality truck made in EU",
       "text": "The truck is made with very durable and save plastic to ensure a lot of fun play time under any conditions."
     },
-    {
+    "safetyFirst":{
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
       "label": "Safety first...",
       "text": "Our trucks are equipped with safety lock so that you can have a smooth ride."
     },
-    {
+    "contactUs":{
       "image": "http://mojetatra.cz/wp-content/uploads/2017/05/645059_01.jpg",
       "label": "Contact us",
       "text": "We are currently working on our web shop byt if you can not wait contact us at info@toy-truck.co.uk."
+    },
+    "comePlayWithUsVideo": {
+      "youtubeId": "OJ3eLvet-Mc",
+      "label": "Come and play with us!",
+      "text": "Do you also want to enjoy your self as these two. Contact us and get your own Tatra!"
     }
-  ],
+  },
   "footer": {
     "copyright": "Copyright © Toy Truck 2018",
     "email":"info@toy-truck.co.uk"
