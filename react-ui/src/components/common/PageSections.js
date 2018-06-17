@@ -15,7 +15,7 @@ const Section = (props) => {
                 <Row className={"align-items-center py-3"}>
                     <Col sm={6} className={this.isFlipped("order-sm-2")}>
                         <div>
-                            <img className={"img-fluid rounded-circle"} src={props.sectionData.image} alt=""/>
+                            <img className={'img-fluid'} src={props.sectionData.image} alt=""/>
                         </div>
                     </Col>
                     <Col sm={6} className={this.isFlipped("order-sm-1")}>

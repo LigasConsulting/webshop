@@ -1,8 +1,10 @@
 import React, {PureComponent} from 'react'
-import {Container, Navbar, NavbarBrand} from 'reactstrap';
+import {Collapse, Container, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink} from 'reactstrap';
 
 import logoImgXs from '../../assets/img/logo-extra-small.png';
 import logoImg from '../../assets/img/logo-small.png';
+import ShoppingCardIcon from "../shop/ShoppingCardIcon";
+import {Link} from "react-router-dom";
 
 class Navigation extends PureComponent {
 

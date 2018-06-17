@@ -3,6 +3,7 @@ import {Container, UncontrolledCarousel, Button} from "reactstrap";
 import {ShopContext} from "../../ShopContext";
 
 import shopItemsData from '../../assets/shop-item-data';
+import PayPallAddButton from "./PayPallAddButton";
 
 const ItemDetail = ({match}) => {
     this.article = shopItemsData.find(item => item.id === match.params.itemId);
@@ -12,13 +13,14 @@ const ItemDetail = ({match}) => {
             <UncontrolledCarousel items={this.article.images}/>
             <h1>{this.article.title}</h1>
             <h2>Price: {this.article.price}</h2>
-            <ShopContext.Consumer>
+{/*            <ShopContext.Consumer>
                 {({addItem}) => (
                     <Button onClick={() => addItem(this.article)}>
                         Add to shopping cart
                     </Button>
                 )}
-            </ShopContext.Consumer>
+            </ShopContext.Consumer>*/}
+            <PayPallAddButton />
         </Container>
     );
 };

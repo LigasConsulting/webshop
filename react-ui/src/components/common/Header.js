@@ -26,7 +26,8 @@ const Header = (props) => {
                     </Col>
                     <Col lg={10} className={'mx-auto'}>
                         <h2 className={"text-faded"}>
-                            <Button onClick={() => this.handleClick(props.linkTo)}
+                            <Button className={'btn-lg'}
+                                onClick={() => this.handleClick(props.linkTo)}
                                     color={'secondary'}>
                                 Hop on!
                             </Button>
