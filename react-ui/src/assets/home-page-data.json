@@ -1,38 +1,64 @@
 {
   "header": {
-    "title": "Welcome to Toy Truck ",
-    "subtitle": "Want to take a ride on out tipper trucks?"
+    "title": "Tipper for best childhood memories",
+    "subtitle": "Want to take a ride on this tipper trucks?"
   },
   "sections": {
+    "intro": {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
+      "text": "As a mother of four, I like when my kids play by them self, have fun and are playing with safe toys."
+    },
+    "label1": {
+      "label": "... this truck does it all!"
+    },
     "heavyDuty": {
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
-      "label": "Heavy duty car for every job",
-      "text": "The toy Tatra tipper truck can handle load up to 220lb (100kg) so that not only the kids can have fun with them."
+      "label": "Heavy duty tipper",
+      "text": "The toy Tatra tipper truck can handle load up to 220lb (100kg). Not only the kids can have fun with them."
     },
-    "madeInEU":{
+    "materials": {
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
-      "label": "High quality truck made in EU",
+      "label": "Quality materials",
       "text": "The truck is made with very durable and save plastic to ensure a lot of fun play time under any conditions."
     },
-    "safetyFirst":{
+    "madeInEU": {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
+      "label": "Made in EU",
+      "text": "Design and manufactured in Czech Republic for quality insurance."
+    },
+    "safetyFirst": {
       "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
-      "label": "Safety first...",
+      "right":true,
+      "label": "Safety first",
       "text": "Our trucks are equipped with safety lock so that you can have a smooth ride."
     },
-    "contactUs":{
-      "image": "http://mojetatra.cz/wp-content/uploads/2017/05/645059_01.jpg",
-      "label": "Contact us",
+    "outdoor": {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
+      "label": "Outdoor ready",
+      "text": "Load everything from sand, pebbles or a friend and off you go."
+    },
+    "ageLimit": {
+      "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
+      "right":true,
+      "label": "1 year+",
+      "text": "The tipper truck is suitable for kids from one year."
+    },
+    "label2": {
+      "label": "Come and play with us!",
       "text": "We are currently working on our web shop byt if you can not wait contact us at info@toy-truck.co.uk."
     },
     "comePlayWithUsVideo": {
       "youtubeId": "OJ3eLvet-Mc",
-      "label": "Come and play with us!",
-      "text": "Do you also want to enjoy your self as these two. Contact us and get your own Tatra!"
+      "text": "This tipper stayed in my childhood memories and certainly will stay in those of my kids."
     }
+  },
+  "contactUs": {
+    "label": "Contact us",
+    "email": "info@toy-truck.co.uk"
   },
   "footer": {
     "copyright": "Copyright © Toy Truck 2018",
-    "email":"info@toy-truck.co.uk"
+    "email": "info@toy-truck.co.uk"
   }
 }
 

@@ -1,9 +1,8 @@
 import React, {PureComponent} from 'react'
-import {Link} from "react-router-dom";
-import {Collapse, Container, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink} from 'reactstrap';
+import {Container, Navbar, NavbarBrand} from 'reactstrap';
 
+import logoImgXs from '../../assets/img/logo-extra-small.png';
 import logoImg from '../../assets/img/logo-small.png';
-import ShoppingCardIcon from "../shop/ShoppingCardIcon";
 
 class Navigation extends PureComponent {
 
@@ -26,24 +25,33 @@ class Navigation extends PureComponent {
         return (
             <Navbar dark={true} expand={'lg'} fixed={'top'} className="navbar-custom">
                 <Container>
-                    <NavbarBrand href="/"><img src={logoImg} /></NavbarBrand>
+                    <NavbarBrand href="/">
+                        <picture>
+                            <source
+                                media="(min-width: 576px)"
+                                srcSet={logoImg}/>
+                            <img src={logoImgXs}/>
+                        </picture>
+
+
+                    </NavbarBrand>
                     <NavbarBrand href="/">Toy Truck</NavbarBrand>
-                    {/*<ShoppingCardIcon />*/}
+                    {/*<ShoppingCardIcon />
                     <NavbarToggler onClick={this.toggleNavbar}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar className={'ml-auto'}>
-                  {/*          <NavItem>
+                            <NavItem>
                                 <NavLink tag={Link} to="/shop">
                                     Shop
                                 </NavLink>
-                            </NavItem>*/}
-          {/*                  <NavItem>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink tag={Link} to="/about">
                                     About us
                                 </NavLink>
-                            </NavItem>*/}
+                            </NavItem>
                         </Nav>
-                    </Collapse>
+                    </Collapse>*/}
                 </Container>
             </Navbar>
         )

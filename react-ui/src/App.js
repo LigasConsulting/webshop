@@ -5,6 +5,7 @@ import brands from '@fortawesome/fontawesome-free-brands'
 import faShoppingCart from '@fortawesome/fontawesome-free-solid/faShoppingCart'
 import faSquare from '@fortawesome/fontawesome-free-solid/faSquare'
 import faCheck from '@fortawesome/fontawesome-free-solid/faCheck'
+import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope'
 
 import {withHero} from "./components/common/Hero";
 import Home from "./components/web/Home";
@@ -15,7 +16,7 @@ import ItemDetail from "./components/shop/ItemDetail";
 import ShoppingCard from "./components/shop/ShoppingCard";
 import {ShopContext} from "./ShopContext";
 
-fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck);
+fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope);
 
 class App extends React.Component {
     constructor(props) {
@@ -27,7 +28,7 @@ class App extends React.Component {
                     if (entry) {
                         entry.count++;
                     } else {
-                        state.items.push(Object.assign({}, newItem, {count:1}));
+                        state.items.push(Object.assign({}, newItem, {count: 1}));
                     }
                     return {
                         items: state.items

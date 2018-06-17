@@ -1,10 +1,10 @@
 @mixin heading-font {
-  font-family: 'Catamaran';
+  font-family: 'Indie Flower', cursive;
   font-weight: 800 !important;
 }
 
 @mixin body-font {
-  font-family: 'Lato';
+  font-family: 'Hi Melody', cursive;
 }
 
 @mixin transition-all() {

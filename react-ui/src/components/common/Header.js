@@ -13,15 +13,19 @@ const Header = (props) => {
         <header className={"masthead text-center text-white d-flex"}>
             <Container className={"my-auto"}>
                 <Row className={'text-bg'}>
-                    <Col lg={10} className="mx-auto">
-                        <h1 className={"text-uppercase"}>
+                    <Col lg={10} className={'mx-auto'}>
+                        <h1>
                             <strong>{props.headerData.title}</strong>
                         </h1>
                         <hr/>
                     </Col>
-                    <Col lg={10}>
-                        <h2 className={"text-faded mb-5"}>
+                    <Col lg={10} className={'mx-auto'}>
+                        <h2 className={"text-faded"}>
                             {props.headerData.subtitle}&nbsp;&nbsp;
+                        </h2>
+                    </Col>
+                    <Col lg={10} className={'mx-auto'}>
+                        <h2 className={"text-faded"}>
                             <Button onClick={() => this.handleClick(props.linkTo)}
                                     color={'secondary'}>
                                 Hop on!
