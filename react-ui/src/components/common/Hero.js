@@ -1,20 +1,20 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
 
-const Hero = () => {
+const Hero = ({className, text, imgSrc}) => {
     return (
-        <div>
-            <LazyHero imageSrc="http://mojetatra.cz/wp-content/uploads/2016/11/tatra-old-school-6.jpg">
-                <h1>Generic Startup Hype Headline</h1>
+        <div className={className}>
+            <LazyHero imageSrc={imgSrc}>
+                <h1>{text}</h1>
             </LazyHero>
         </div>
     );
 };
 
-const withHero = WrappedComp => props => (
+const withHero = (props) => (WrappedComp) => moreProps => (
     <div>
-        <Hero/>
-        <WrappedComp {...props} />
+        <Hero text={props.text} imgSrc={props.imgSrc} className={props.className}/>
+        <WrappedComp {...moreProps} />
     </div>
 );
 

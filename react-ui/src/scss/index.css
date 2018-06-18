@@ -15,8 +15,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: 'Indie Flower', cursive;
   font-weight: 800 !important; }
 
@@ -36,16 +35,31 @@ h6 {
   background-color: rgba(0, 0, 0, 0.7); }
   .navbar-custom svg {
     color: rgba(255, 255, 255, 0.5); }
+  .navbar-custom .pointer {
+    cursor: pointer; }
+    @media (min-width: 992px) {
+      .navbar-custom .pointer {
+        margin: 10px; } }
+  .navbar-custom .nav-logo {
+    height: 35px; }
+    .navbar-custom .nav-logo svg {
+      vertical-align: top;
+      height: 40px;
+      width: 65px; }
+    @media (min-width: 768px) {
+      .navbar-custom .nav-logo {
+        height: 60px; }
+        .navbar-custom .nav-logo svg {
+          height: 65px;
+          width: 120px; } }
   .navbar-custom .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
     font-weight: 700; }
     @media (min-width: 768px) {
       .navbar-custom .navbar-brand {
         font-size: 2rem; } }
   .navbar-custom .navbar-nav .nav-item .nav-link {
-    text-transform: uppercase;
-    font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.1rem; }
 
@@ -151,3 +165,23 @@ h1 {
   @media (min-width: 1200px) {
     h1 {
       font-size: 2.5rem; } }
+
+.page-hero {
+  margin-bottom: 20px; }
+  .page-hero > div {
+    min-height: 20vh; }
+    @media (min-width: 768px) {
+      .page-hero > div {
+        min-height: 30vh; } }
+  .page-hero h1 {
+    margin-top: 60px; }
+
+.page-hero-thank-you > div {
+  min-height: 75vh; }
+
+.free-delivery {
+  text-align: right;
+  width: 100%;
+  text-transform: uppercase;
+  color: red;
+  padding-right: 10px; }

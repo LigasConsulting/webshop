@@ -1,11 +1,37 @@
 .navbar-custom {
   background-color: fade-out($black, 0.3);
 
-  svg{
+  svg {
     color: $navigation-icon-colour;
   }
+
+  .pointer {
+    cursor: pointer;
+    @media (min-width: 992px) {
+      margin: 10px;
+    }
+  }
+
+  .nav-logo {
+    height: 35px;
+    svg {
+      vertical-align: top;
+      height: 40px;
+      width: 65px;
+    }
+
+    @media (min-width: 768px) {
+      height: 60px;
+
+      svg {
+        height: 65px;
+        width: 120px;
+      }
+    }
+  }
+
   .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
     font-weight: 700;
     @media (min-width: 768px) {
@@ -15,8 +41,6 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        text-transform: uppercase;
-        font-size: 0.8rem;
         font-weight: 700;
         letter-spacing: 0.1rem;
       }

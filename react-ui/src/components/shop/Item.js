@@ -1,19 +1,33 @@
 import React from 'react'
-import {Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle} from 'reactstrap';
-import {Link} from "react-router-dom";
+import {Card, CardBody, CardImg, CardText, CardTitle} from 'reactstrap';
+import PayPallAddButton from "./PayPallAddButton";
+import {ShopContext} from "../../ShopContext";
+
 
 const Item = (props) => {
-
     return (
-        <Card>
+        <Card className={'mb-3'}>
+            <div className={'free-delivery'}>Free delivery</div>
             <CardImg top width="100%" src={props.itemData.image} alt="Card image cap"/>
             <CardBody>
                 <CardTitle>{props.itemData.title}</CardTitle>
-                <CardSubtitle>{props.itemData.subtitle}</CardSubtitle>
+                {/*<CardSubtitle>Price: {props.itemData.price} GBP</CardSubtitle>*/}
                 <CardText>{props.itemData.description}</CardText>
-                <Button tag={Link} to={'/shop/' + props.itemData.id}>
+                <PayPallAddButton colour={props.itemData.price.colour} buttonId={props.itemData.price.buttonId}/>
+
+                {/*                <Button tag={Link} to={'/shop/' + props.itemData.id}>
                     {props.itemData.price}
-                </Button>
+                </Button>*/}
+                {/*<ShopContext.Consumer>*/}
+
+
+                    {/*{({addItem}) => (*/}
+                        {/*<div onClick={() => addItem(props.itemData)}>*/}
+                            {/**/}
+                        {/*</div>*/}
+                    {/*)}*/}
+
+                {/*</ShopContext.Consumer>*/}
             </CardBody>
         </Card>
     );

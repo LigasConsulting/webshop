@@ -10,11 +10,9 @@ import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope'
 import {withHero} from "./components/common/Hero";
 import Home from "./components/web/Home";
 import Shop from "./components/shop/Shop";
-import About from "./components/web/About";
 import Navigation from "./components/web/Navigation";
-import ItemDetail from "./components/shop/ItemDetail";
-import ShoppingCard from "./components/shop/ShoppingCard";
 import {ShopContext} from "./ShopContext";
+import ThankYou from "./components/web/ThankYou";
 
 fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope);
 
@@ -60,11 +58,20 @@ class App extends React.Component {
                 <ShopContext.Provider value={this.state}>
                     <Navigation/>
                     <Route exact path={'/'} component={Home}/>
-                    <Route path={'/about'} component={withHero(About)}/>
-                    <Route path={'/shopping-cart'} component={withHero(ShoppingCard)}/>
+                    {/*<Route path={'/about'} component={withHero(About)}/>*/}
+                    {/*<Route path={'/shopping-cart'} component={withHero(ShoppingCard)}/>*/}
 
-                    <Route exact path={'/shop'} component={withHero(Shop)}/>
-                    <Route exact path={'/shop/:itemId'} component={withHero(ItemDetail)}/>
+                    <Route exact path={'/shop'} component={withHero({
+                        text: 'Shop',
+                        imgSrc: '/static/img/hero.jpg',
+                        className: 'page-hero'
+                    })(Shop)}/>
+                    <Route exact path={'/shop/success'} component={withHero({
+                        text: 'Thank you for your parches',
+                        imgSrc: '/static/img/hero.jpg',
+                        className: 'page-hero-thank-you'
+                    })(ThankYou)}/>
+                    {/*<Route exact path={'/shop/:itemId'} component={withHero(ItemDetail)}/>*/}
                 </ShopContext.Provider>
             </Router>
         );
