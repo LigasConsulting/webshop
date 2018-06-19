@@ -41,11 +41,11 @@ class Navigation extends PureComponent {
                                     Shop
                                 </NavLink>
                             </NavItem>
-                            {/*<NavItem>*/}
-                                {/*<NavLink tag={Link} to="/about">*/}
-                                    {/*About us*/}
-                                {/*</NavLink>*/}
-                            {/*</NavItem>*/}
+                            <NavItem>
+                                <NavLink tag={Link} to="/about">
+                                    About me
+                                </NavLink>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Container>

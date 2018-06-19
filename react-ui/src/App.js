@@ -13,6 +13,7 @@ import Shop from "./components/shop/Shop";
 import Navigation from "./components/web/Navigation";
 import {ShopContext} from "./ShopContext";
 import ThankYou from "./components/web/ThankYou";
+import About from "./components/web/About";
 
 fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope);
 
@@ -58,7 +59,11 @@ class App extends React.Component {
                 <ShopContext.Provider value={this.state}>
                     <Navigation/>
                     <Route exact path={'/'} component={Home}/>
-                    {/*<Route path={'/about'} component={withHero(About)}/>*/}
+                    <Route path={'/about'} component={withHero({
+                        text: 'About me',
+                        imgSrc: '/static/img/hero.jpg',
+                        className: 'page-hero'
+                    })(About)}/>
                     {/*<Route path={'/shopping-cart'} component={withHero(ShoppingCard)}/>*/}
 
                     <Route exact path={'/shop'} component={withHero({

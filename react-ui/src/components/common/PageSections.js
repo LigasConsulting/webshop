@@ -68,7 +68,7 @@ const SectionYoutubeLeft = (props) => {
                     <Col lg={6} className={"order-lg-1"}>
                         <div className={"p-5"}>
                             <h2>{props.sectionData.label}</h2>
-                            <p>{props.sectionData.text}</p>
+                            <p dangerouslySetInnerHTML={{__html: props.sectionData.text}}/>
                         </div>
                     </Col>
                 </Row>
@@ -83,7 +83,7 @@ const BuyContactUs = (props) => (
             <h1>{props.sectionData.label}</h1>
             <Row>
                 <Col lg={6} className={'ml-auto text-center  mb-3'}>
-                    <Button size={'lg'} color="primary">
+                    <Button size={'lg'} color="primary" href={'/shop'}>
                         <FontAwesomeIcon icon="shopping-cart" className={' mr-1'}/> Shop
                     </Button>
                 </Col>
