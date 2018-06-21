@@ -66,7 +66,7 @@ h5 {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-small.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-media.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -85,13 +85,13 @@ header.masthead {
     padding: 30px; }
   @media (min-width: 576px) {
     header.masthead {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-medium.png"); } }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-media.jpg"); } }
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem; } }
   @media (min-width: 992px) {
     header.masthead {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-big.png");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/main-big.jpg");
       height: 100vh;
       min-height: 650px;
       padding-top: 0;

@@ -1,7 +1,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-small.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-media.jpg');
   background-position: center center;
   @include background-cover;
   hr {
@@ -22,7 +22,7 @@ header.masthead {
     padding: 30px;
   }
   @media (min-width: 576px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-medium.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-media.jpg');
   }
   @media (min-width: 768px) {
     p {
@@ -30,7 +30,7 @@ header.masthead {
     }
   }
   @media (min-width: 992px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-big.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../assets/img/main-big.jpg');
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
