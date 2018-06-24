@@ -61,19 +61,19 @@ class App extends React.Component {
                     <Route exact path={'/'} component={Home}/>
                     <Route path={'/about'} component={withHero({
                         text: 'About me',
-                        imgSrc: '/static/img/hero.jpg',
+                        imgSrc: '/static/img/hero-big.jpg',
                         className: 'page-hero'
                     })(About)}/>
                     {/*<Route path={'/shopping-cart'} component={withHero(ShoppingCard)}/>*/}
 
                     <Route exact path={'/shop'} component={withHero({
                         text: 'Shop',
-                        imgSrc: '/static/img/hero.jpg',
+                        imgSrc: '/static/img/hero-big.jpg',
                         className: 'page-hero'
                     })(Shop)}/>
                     <Route exact path={'/shop/success'} component={withHero({
                         text: 'Thank you for your parches',
-                        imgSrc: '/static/img/hero.jpg',
+                        imgSrc: '/static/img/hero-big.jpg',
                         className: 'page-hero-thank-you'
                     })(ThankYou)}/>
                     {/*<Route exact path={'/shop/:itemId'} component={withHero(ItemDetail)}/>*/}
