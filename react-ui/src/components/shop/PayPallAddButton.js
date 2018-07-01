@@ -5,7 +5,7 @@ const PayPallAddButton = ({colour,buttonId}) => {
         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick"/>
             <input type="hidden" name="hosted_button_id" value={buttonId}/>
-            <input type="hidden" name="on0" value="Colours"/>
+            <input type="hidden" name="on0" value="Variation"/>
             <input type="hidden" name="os0" value={colour}/>
             <input type="hidden" name="currency_code" value="GBP"/>
             <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif"
