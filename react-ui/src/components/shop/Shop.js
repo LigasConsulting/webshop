@@ -2,12 +2,16 @@ import React from 'react'
 import {Col, Container, Row} from 'reactstrap';
 import Item from './Item';
 
-import shopItemsData from '../../assets/shop-item-data';
+import shopItemsLargeData from '../../assets/shop-item-data-large';
+import shopItemsSmallData from '../../assets/shop-item-data-small';
+import data from '../../assets/shop-page-data'
+
 import Footer from "../common/Footer";
+import {SectionMiddle} from "../common/PageSections";
 
 const Shop = () => {
 
-    this.createItemGrid = () => {
+    this.createItemGrid = (shopItemsData) => {
         let itemsPerRow = 3;
         let totalItems = shopItemsData.length;
         let noRows = parseInt(totalItems / itemsPerRow) + 1;
@@ -30,8 +34,12 @@ const Shop = () => {
 
     return (
         <div>
-            <Container>
-                {this.createItemGrid()}
+            <SectionMiddle sectionData={data.sections.label1}/>
+            <Container className={'my-5'}>
+                <h1>Tipper truck 72cm (28inch)</h1>
+                {this.createItemGrid(shopItemsLargeData)}
+                <h1>Small truck 30cm (12inch)</h1>
+                {this.createItemGrid(shopItemsSmallData)}
             </Container>
             <Footer/>
         </div>

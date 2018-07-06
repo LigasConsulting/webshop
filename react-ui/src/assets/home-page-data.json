@@ -1,30 +1,30 @@
 {
   "header": {
-    "title": "Tipper for best childhood memories",
+    "title": "Tipper truck for best childhood memories",
     "subtitle": "Want to take a ride on this tipper trucks?"
   },
   "sections": {
     "intro": {
       "image": "static/img/motherof4.jpg",
-      "text": "As a mother of four, I like when my kids play by them self, have fun and are playing with safe toys."
+      "text": "As a mother of four, I like when my kids play by themselves, have fun and are playing with safe toys."
     },
     "label1": {
       "label": "... this truck does it all!"
     },
     "heavyDuty": {
       "image": "static/img/heavey-duty.jpg",
-      "label": "Heavy duty tipper",
-      "text": "The toy Tatra tipper truck can handle load up to 220lb (100kg). Not only the kids can have fun with them."
+      "label": "Heavy duty tipper truck",
+      "text": "The toy tipper truck can handle load up to 220lb (100kg). Not only the kids can have fun with them."
     },
     "materials": {
       "image": "static/img/quality-material.jpg",
       "label": "Quality materials",
-      "text": "The truck is made with very durable and save plastic to ensure a lot of fun play time under any conditions."
+      "text": "The truck is made with very durable and safe plastic to ensure a lot of fun playtime under any conditions."
     },
     "madeInEU": {
       "image": "static/img/eu-made.jpg",
       "label": "Made in EU",
-      "text": "Design and manufactured in Czech Republic for quality insurance."
+      "text": "Design and manufactured in Czech Republic and meets European quality standards."
     },
     "safetyFirst": {
       "image": "static/img/safty-lock.jpg",
@@ -49,7 +49,7 @@
     },
     "comePlayWithUsVideo": {
       "youtubeId": "G9VMnGKSN6w",
-      "text": "This tipper stayed in my childhood memories and certainly will stay in those of my kids. <br/><br/> Will it stay in the memory of your kids?"
+      "text": "This tipper truck stayed in my childhood memories and certainly will stay in those of my kids. <br/><br/> Will it stay in the memory of your kids?"
     }
   },
   "contactUs": {

@@ -166,15 +166,14 @@ h1 {
     h1 {
       font-size: 2.5rem; } }
 
-.page-hero {
-  margin-bottom: 20px; }
-  .page-hero > div {
-    min-height: 20vh; }
-    @media (min-width: 768px) {
-      .page-hero > div {
-        min-height: 30vh; } }
-  .page-hero h1 {
-    margin-top: 60px; }
+.page-hero > div {
+  min-height: 20vh; }
+  @media (min-width: 768px) {
+    .page-hero > div {
+      min-height: 30vh; } }
+
+.page-hero h1 {
+  margin-top: 60px; }
 
 .page-hero-thank-you > div {
   min-height: 75vh; }

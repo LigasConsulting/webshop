@@ -5,7 +5,7 @@ import me from "../../assets/img/me.jpg";
 
 const About = () => (
     <div>
-        <Container>
+        <Container className={'my-5'}>
             <Row>
 
                 <Col md={4}>
