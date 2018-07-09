@@ -12,7 +12,7 @@ import {SectionMiddle} from "../common/PageSections";
 const Shop = () => {
 
     this.createItemGrid = (shopItemsData) => {
-        let items = shopItemsData.filter(item => !item.outOffStock``);
+        let items = shopItemsData.filter(item => !item.outOffStock);
         let itemsPerRow = 3;
         let totalItems = items.length;
         let noRows = parseInt(totalItems / itemsPerRow) + 1;
