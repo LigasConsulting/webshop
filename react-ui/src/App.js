@@ -14,6 +14,9 @@ import Navigation from "./components/web/Navigation";
 import {ShopContext} from "./ShopContext";
 import ThankYou from "./components/web/ThankYou";
 import About from "./components/web/About";
+import { unregister } from './registerServiceWorker';
+
+unregister() ;
 
 fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope);
 
