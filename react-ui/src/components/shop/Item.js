@@ -7,7 +7,6 @@ import {ShopContext} from "../../ShopContext";
 const Item = (props) => {
     return (
         <Card className={'mb-3'}>
-            <div className={'free-delivery'}>Free delivery</div>
             <CardImg top width="100%" src={props.itemData.image} alt="Card image cap"/>
             <CardBody>
                 <CardTitle>{props.itemData.title}</CardTitle>

@@ -13,7 +13,7 @@ const Footer = (props) => (
                 </a>
             </p>
             <div className={'text-center'}>
-                <SocialIcon network={'twitter'} url={'https://twitter.com/toytruck2'} />&nbsp;
+                <SocialIcon network={'twitter'} url={'https://twitter.com/toytruckcouk'} />&nbsp;
                 <SocialIcon network={'facebook'} url={'https://fb.me/toytruckcouk'} />&nbsp;
                 <SocialIcon network={'instagram'} url={'https://www.instagram.com/toytruckcouk/'} />
             </div>

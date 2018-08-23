@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "title": "Pink Tatra - 35.99GBP",
+    "title": "Pink Tatra - 31.99GBP",
     "description": "72cm (28inch) long tipper truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
-      "price": 35.99,
+      "price": 31.99,
       "colour":"Pink"
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
@@ -14,12 +14,12 @@
   },
   {
     "id": "2",
-    "title": "Orange Tatra - 35.99GBP",
+    "title": "Orange Tatra - 31.99GBP",
     "subtitle": "subtitel",
     "description": "72cm (28inch) long tipper truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
-      "price": 35.99,
+      "price": 31.99,
       "colour":"Orange"
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
@@ -28,12 +28,13 @@
   },
   {
     "id": "3",
-    "title": "Khaki Tatra - 35.99GBP",
+    "title": "Khaki Tatra - 31.99GBP",
     "subtitle": "subtitel",
     "description": "72cm (28inch) long tipper truck for outdoor fun.",
+    "outOffStock":true,
     "price": {
       "buttonId": "PBEX58FA2PAV6",
-      "price": 35.99,
+      "price": 31.99,
       "colour":"Khaki"
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-green.jpg",
@@ -42,12 +43,12 @@
   },
   {
     "id": "4",
-    "title": "Red blue Tatra - 35.99GBP",
+    "title": "Red blue Tatra - 29.99GBP",
     "subtitle": "subtitel",
     "description": "72cm (28inch) long tipper truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
-      "price": 35.99,
+      "price": 29.99,
       "colour":"Red-Blue"
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
@@ -56,12 +57,12 @@
   },
   {
     "id": "5",
-    "title": "Blue Tatra - 35.99GBP",
+    "title": "Blue Tatra - 31.99GBP",
     "subtitle": "subtitel",
     "description": "72cm (28inch) long tipper truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
-      "price": 35.99,
+      "price": 31.99,
       "colour":"Blue"
     },
     "image": "static/img/tatra-72-blue.jpg",
