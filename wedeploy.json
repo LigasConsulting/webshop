@@ -1,0 +1,8 @@
+{
+  "id": "ui",
+  "customDomains": ["www.toy-truck.co.uk"],
+  "port": 3000,
+  "healthCheck": {
+    "url": "localhost:3000"
+  }
+}
