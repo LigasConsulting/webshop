@@ -7,6 +7,7 @@ import data from '../../assets/shop-page-data'
 
 import Footer from "../common/Footer";
 import {SectionMiddle} from "../common/PageSections";
+import {Helmet} from "react-helmet";
 
 const Shop = () => {
 
@@ -34,6 +35,16 @@ const Shop = () => {
 
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8"/>
+                <title>Toy Truck Shop</title>
+                <meta name="keywords" content="shop"/>
+                <meta name="description" content="Web shop for toy tipper truck."/>
+                <meta property="og:title" content="Toy Truck" />
+                <meta property="og:url" content="https://toy-truck.co.uk/shop" />
+                <meta property="og:type" content="website"/>
+                <meta name="og:email" content="info@toy-truck.co.uk"/>
+            </Helmet>
             <SectionMiddle sectionData={data.sections.label1}/>
             <Container className={'my-5'}>
                 <h1>Tipper truck 72cm (28inch)</h1>
