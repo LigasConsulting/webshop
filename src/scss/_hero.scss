@@ -17,3 +17,9 @@
     min-height: 75vh;
   }
 }
+
+.empty-page-hero{
+  & > div {
+    min-height: 10vh;
+  }
+}

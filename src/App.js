@@ -6,6 +6,9 @@ import faShoppingCart from '@fortawesome/fontawesome-free-solid/faShoppingCart'
 import faSquare from '@fortawesome/fontawesome-free-solid/faSquare'
 import faCheck from '@fortawesome/fontawesome-free-solid/faCheck'
 import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope'
+import faWeight from '@fortawesome/fontawesome-free-solid/faWeight'
+import faArrowsAlt from '@fortawesome/fontawesome-free-solid/faArrowsAlt'
+import faChild from '@fortawesome/fontawesome-free-solid/faChild'
 
 import {withHero} from "./components/common/Hero";
 import Home from "./components/web/Home";
@@ -15,10 +18,11 @@ import {ShopContext} from "./ShopContext";
 import ThankYou from "./components/web/ThankYou";
 import About from "./components/web/About";
 import { unregister } from './registerServiceWorker';
+import ItemDetail from "./components/shop/ItemDetail";
 
 unregister() ;
 
-fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope);
+fontawesome.library.add(brands, faShoppingCart, faSquare, faCheck, faEnvelope, faWeight, faArrowsAlt, faChild);
 
 class App extends React.Component {
     constructor(props) {
@@ -79,11 +83,13 @@ class App extends React.Component {
                         imgSrc: '/static/img/hero-big.jpg',
                         className: 'page-hero-thank-you'
                     })(ThankYou)}/>
-                    {/*<Route exact path={'/shop/:itemId'} component={withHero(ItemDetail)}/>*/}
+                    <Route exact path={'/shop/:itemId'} component={withHero({
+                        className: 'empty-page-hero'
+                    })(ItemDetail)}/>
                 </ShopContext.Provider>
             </Router>
         );
-    }
+    }rr
 }
 
 export default App

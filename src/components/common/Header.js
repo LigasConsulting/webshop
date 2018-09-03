@@ -1,6 +1,5 @@
 import React from 'react'
 import {Button, Col, Container, Row} from 'reactstrap';
-import scrollToComponent from 'react-scroll-to-component';
 
 
 const Header = (props) => {

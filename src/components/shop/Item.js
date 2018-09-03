@@ -1,7 +1,7 @@
 import React from 'react'
-import {Card, CardBody, CardImg, CardText, CardTitle} from 'reactstrap';
+import {Button, ButtonGroup, Card, CardBody, CardImg, CardText, CardTitle} from 'reactstrap';
 import PayPallAddButton from "./PayPallAddButton";
-import {ShopContext} from "../../ShopContext";
+import {Link} from "react-router-dom";
 
 
 const Item = (props) => {
@@ -10,21 +10,22 @@ const Item = (props) => {
             <CardImg top width="100%" src={props.itemData.image} alt="Card image cap"/>
             <CardBody>
                 <CardTitle>{props.itemData.title}</CardTitle>
-                {/*<CardSubtitle>Price: {props.itemData.price} GBP</CardSubtitle>*/}
-                <CardText>{props.itemData.description}</CardText>
-                <PayPallAddButton colour={props.itemData.price.colour} buttonId={props.itemData.price.buttonId}/>
-
-                {/*                <Button tag={Link} to={'/shop/' + props.itemData.id}>
-                    {props.itemData.price}
-                </Button>*/}
+                <CardTitle> {`${props.itemData.price.value} ${props.itemData.price.currency}`} </CardTitle>
+                <CardText>{props.itemData.summary}</CardText>
+                <ButtonGroup>
+                    <PayPallAddButton colour={props.itemData.price.colour} buttonId={props.itemData.price.buttonId}/>
+                    <Button color="link" size="lg" tag={Link} to={'/shop/' + props.itemData.id}>
+                        Detail
+                    </Button>
+                </ButtonGroup>
                 {/*<ShopContext.Consumer>*/}
 
 
-                    {/*{({addItem}) => (*/}
-                        {/*<div onClick={() => addItem(props.itemData)}>*/}
-                            {/**/}
-                        {/*</div>*/}
-                    {/*)}*/}
+                {/*{({addItem}) => (*/}
+                {/*<div onClick={() => addItem(props.itemData)}>*/}
+                {/**/}
+                {/*</div>*/}
+                {/*)}*/}
 
                 {/*</ShopContext.Consumer>*/}
             </CardBody>

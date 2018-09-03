@@ -2,8 +2,7 @@ import React from 'react'
 import {Col, Container, Row} from 'reactstrap';
 import Item from './Item';
 
-import shopItemsLargeData from '../../assets/shop-item-data-large';
-import shopItemsSmallData from '../../assets/shop-item-data-small';
+import shopItemsData from '../../assets/shop-item-data';
 import data from '../../assets/shop-page-data'
 
 import Footer from "../common/Footer";
@@ -15,7 +14,7 @@ const Shop = () => {
         let items = shopItemsData.filter(item => !item.outOffStock);
         let itemsPerRow = 3;
         let totalItems = items.length;
-        let noRows = parseInt(totalItems / itemsPerRow) + 1;
+        let noRows = parseInt(totalItems / itemsPerRow, 10) + 1;
         let row = [];
 
         for (let i = 0; i < noRows; i++) {
@@ -38,9 +37,9 @@ const Shop = () => {
             <SectionMiddle sectionData={data.sections.label1}/>
             <Container className={'my-5'}>
                 <h1>Tipper truck 72cm (28inch)</h1>
-                {this.createItemGrid(shopItemsLargeData)}
+                {this.createItemGrid(shopItemsData.filter(item => item.size === 'large'))}
                 <h1>Small truck 30cm (12inch)</h1>
-                {this.createItemGrid(shopItemsSmallData)}
+                {this.createItemGrid(shopItemsData.filter(item => item.size === 'small'))}
             </Container>
             <Footer/>
         </div>
