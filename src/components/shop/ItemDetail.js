@@ -15,7 +15,7 @@ const ItemDetail = ({match}) => {
                 <meta charSet="utf-8"/>
                 <title>{`Shop item -  ${this.article.title}`}</title>
                 <meta name="keywords" content="shop"/>
-                <meta name="description" content="Web shop for toy tipper truck."/>
+                <meta name="description" content="Web shop for toy dump truck."/>
                 <meta property="og:type" content="website"/>
                 <script type="application/ld+json">{`
                     {

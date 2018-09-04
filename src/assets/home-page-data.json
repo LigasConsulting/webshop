@@ -1,7 +1,7 @@
 {
   "header": {
-    "title": "Tipper truck for best childhood memories",
-    "subtitle": "Want to take a ride on this tipper trucks?"
+    "title": "Dump truck for best childhood memories",
+    "subtitle": "Want to take a ride on this dump trucks?"
   },
   "sections": {
     "intro": {
@@ -13,8 +13,8 @@
     },
     "heavyDuty": {
       "image": "static/img/heavey-duty.jpg",
-      "label": "Heavy duty tipper truck",
-      "text": "The toy tipper truck can handle load up to 220lb (100kg). Not only the kids can have fun with them."
+      "label": "Heavy duty dump truck",
+      "text": "The toy dump truck can handle load up to 220lb (100kg). Not only the kids can have fun with them."
     },
     "materials": {
       "image": "static/img/quality-material.jpg",
@@ -41,7 +41,7 @@
       "image": "static/img/one-year.jpg",
       "right":true,
       "label": "1 year+",
-      "text": "The tipper truck is suitable for kids from one year."
+      "text": "The dump truck is suitable for kids from one year."
     },
     "label2": {
       "label": "Come and play with us!",
@@ -49,7 +49,7 @@
     },
     "comePlayWithUsVideo": {
       "youtubeId": "G9VMnGKSN6w",
-      "text": "This tipper truck stayed in my childhood memories and certainly will stay in those of my kids. <br/><br/> Will it stay in the memory of your kids?"
+      "text": "This dump truck stayed in my childhood memories and certainly will stay in those of my kids. <br/><br/> Will it stay in the memory of your kids?"
     }
   },
   "contactUs": {

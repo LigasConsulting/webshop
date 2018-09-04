@@ -39,7 +39,7 @@ const Shop = () => {
                 <meta charSet="utf-8"/>
                 <title>Toy Truck Shop</title>
                 <meta name="keywords" content="shop"/>
-                <meta name="description" content="Web shop for toy tipper truck."/>
+                <meta name="description" content="Web shop for toy dump truck."/>
                 <meta property="og:title" content="Toy Truck" />
                 <meta property="og:url" content="https://toy-truck.co.uk/shop" />
                 <meta property="og:type" content="website"/>
@@ -47,7 +47,7 @@ const Shop = () => {
             </Helmet>
             <SectionMiddle sectionData={data.sections.label1}/>
             <Container className={'my-5'}>
-                <h1>Tipper truck 72cm (28inch)</h1>
+                <h1>Dump truck 72cm (28inch)</h1>
                 {this.createItemGrid(shopItemsData.filter(item => item.size === 'large'))}
                 <h1>Small truck 30cm (12inch)</h1>
                 {this.createItemGrid(shopItemsData.filter(item => item.size === 'small'))}

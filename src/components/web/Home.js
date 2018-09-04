@@ -13,8 +13,8 @@ const Home = () => (
         <Helmet>
             <meta charSet="utf-8"/>
             <title>Toy Truck</title>
-            <meta name="keywords" content="Tatra, tipper truck, dump truck, truck"/>
-            <meta name="description" content="The best place to buy high quality 72cm toy tipper trucks."/>
+            <meta name="keywords" content="Tatra, tipper truck, dump truck, toy truck, toys"/>
+            <meta name="description" content="The best place to buy high quality 72cm toy dump trucks."/>
             <meta property="og:title" content="Toy Truck" />
             <meta property="og:url" content="https://toy-truck.co.uk" />
             <meta property="og:type" content="website"/>

@@ -19,8 +19,8 @@ const About = () => (
                         reason but I have an entrepreneurial spirit and I don't want to give up on that.
                     </p>
                     <p>
-                        When my family go out we are always like a walking advertisement for tipper trucks. To whatever
-                        playground or park we go, every child would like to play with them. This tipper toy is a legend in my
+                        When my family go out we are always like a walking advertisement for dump trucks. To whatever
+                        playground or park we go, every child would like to play with them. This toy Tatra dump truck is a legend in my
                         country.
                     </p>
                     <p className={'mb-5'}>Why don't make it a legend here? </p>

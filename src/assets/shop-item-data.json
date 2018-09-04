@@ -2,8 +2,8 @@
   {
     "id": "1",
     "size": "large",
-    "title": "Pink Tatra",
-    "summary": "72cm (28inch) long tipper truck for outdoor fun.",
+    "title": "Pink dump truck",
+    "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
       "value": 31.99,
@@ -12,7 +12,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-pink.jpg",
     "details": {
-      "description":"72cm (28inch) long tipper truck for outdoor fun.",
+      "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
         "size":"320 x 280 x 720 mm",
         "age":"1+",
@@ -29,9 +29,9 @@
   {
     "id": "2",
     "size": "large",
-    "title": "Orange Tatra",
+    "title": "Orange dump truck",
     "subtitle": "subtitel",
-    "summary": "72cm (28inch) long tipper truck for outdoor fun.",
+    "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
       "value": 31.99,
@@ -40,7 +40,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-oranz.jpg",
     "details": {
-      "description":"72cm (28inch) long tipper truck for outdoor fun.",
+      "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
         "size":"320 x 280 x 720 mm",
         "age":"1+",
@@ -57,9 +57,9 @@
   {
     "id": "3",
     "size": "large",
-    "title": "Khaki Tatra",
+    "title": "Khaki dump truck",
     "subtitle": "subtitel",
-    "summary": "72cm (28inch) long tipper truck for outdoor fun.",
+    "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
     "outOffStock": true,
     "price": {
       "buttonId": "PBEX58FA2PAV6",
@@ -69,7 +69,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-green.jpg",
     "details": {
-      "description":"72cm (28inch) long tipper truck for outdoor fun.",
+      "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
         "size":"320 x 280 x 720 mm",
         "age":"1+",
@@ -86,9 +86,9 @@
   {
     "id": "4",
     "size": "large",
-    "title": "Red blue Tatra",
+    "title": "Red blue dump truck",
     "subtitle": "subtitel",
-    "summary": "72cm (28inch) long tipper truck for outdoor fun.",
+    "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
       "value": 29.99,
@@ -97,7 +97,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-72-red-blue.jpg",
     "details": {
-      "description":"72cm (28inch) long tipper truck for outdoor fun.",
+      "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
         "size":"320 x 280 x 720 mm",
         "age":"1+",
@@ -114,9 +114,9 @@
   {
     "id": "5",
     "size": "large",
-    "title": "Blue Tatra",
+    "title": "Blue dump truck",
     "subtitle": "subtitel",
-    "summary": "72cm (28inch) long tipper truck for outdoor fun.",
+    "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
     "price": {
       "buttonId": "PBEX58FA2PAV6",
       "value": 31.99,
@@ -125,7 +125,7 @@
     },
     "image": "static/img/tatra-72-blue.jpg",
     "details": {
-      "description":"72cm (28inch) long tipper truck for outdoor fun.",
+      "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
         "size":"320 x 280 x 720 mm",
         "age":"1+",
@@ -142,9 +142,9 @@
   {
     "id": "6",
     "size": "small",
-    "title": "Small orange Tatra",
+    "title": "Small orange dump truck",
     "subtitle": "subtitel",
-    "summary": "30cm (12inch) long tipper truck to fit everywhere.",
+    "summary": "30cm (12inch) long Tatra dump truck to fit everywhere.",
     "price": {
       "buttonId": "37BZJM6MU3BZG",
       "value": 14.99,
@@ -153,7 +153,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-30-Tatra148-.jpg",
     "details": {
-      "description":"30cm (12inch) long tipper truck to fit everywhere.",
+      "description":"30cm (12inch) long Tatra dump truck to fit everywhere.",
       "metadata":{
         "size":"360 x 175 x 125 mm",
         "age":"1+",
@@ -170,9 +170,9 @@
   {
     "id": "7",
     "size": "small",
-    "title": "Small blue red Tatra",
+    "title": "Small blue red dump truck",
     "subtitle": "subtitel",
-    "summary": "30cm (12inch) long tipper truck to fit everywhere.",
+    "summary": "30cm (12inch) long Tatra dump truck to fit everywhere.",
     "price": {
       "buttonId": "37BZJM6MU3BZG",
       "value": 14.99,
@@ -181,7 +181,7 @@
     },
     "image": "https://mojetatra.cz/wp-content/uploads/2016/11/tatra-30-cerveno-modra.jpg",
     "details": {
-      "description":"30cm (12inch) long tipper truck to fit everywhere.",
+      "description":"30cm (12inch) long Tatra dump truck to fit everywhere.",
       "metadata":{
         "size":"360 x 175 x 125 mm",
         "age":"1+",
