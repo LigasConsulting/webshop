@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.toy-truck.co.uk/</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/about</loc>
+        <lastmod>2018-09-04</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/1</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/2</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/4</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/5</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/6</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/7</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/9</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/10</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://www.toy-truck.co.uk/shop/12</loc>
+        <lastmod>2018-09-04</lastmod>
+    </url>
+</urlset>
