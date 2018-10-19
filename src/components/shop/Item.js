@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 const Item = (props) => {
     return (
         <Card className={'mb-3'}>
-            <CardImg top width="100%" src={props.itemData.image} alt="Card image cap"/>
+            <CardImg top width="100%" src={props.itemData.image} alt={props.itemData.title}/>
             <CardBody>
                 <CardTitle>{props.itemData.title}</CardTitle>
                 <CardTitle> {`${props.itemData.price.value} ${props.itemData.price.currency}`} </CardTitle>
