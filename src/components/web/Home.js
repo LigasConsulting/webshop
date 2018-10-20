@@ -25,7 +25,7 @@ const Home = () => (
                   "@type": "Organization",
                   "url": "https://toy-truck.co.uk",
                   "logo": "https://toy-truck.co.uk/static/img/logo.png",
-                  "email": "mailto:info@toy-truck.co.uk",
+                  "email": "mailto:info@toy-truck.co.uk"
                 }
             `}
             </script>
