@@ -23,7 +23,7 @@ const ItemDetail = ({match}) => {
                         "@type": "Product",
                         "name": "${this.article.title}",
                         "image": [
-                        ${this.article.image}
+                            "${this.article.image}"
                         ],
                         "description": "${this.article.summary}",
                         "offers": {
@@ -31,7 +31,7 @@ const ItemDetail = ({match}) => {
                             "priceCurrency": "${this.article.price.currency}",
                             "price": "${this.article.price.value}",
                             "itemCondition": "https://schema.org/NewCondition",
-                            "availability": "https://schema.org/InStock",
+                            "availability": "https://schema.org/InStock"
                         }
                     }
                 `}</script>
