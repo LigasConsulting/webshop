@@ -123,7 +123,7 @@
       "currency": "GBP",
       "colour": "Blue"
     },
-    "image": "static/img/tatra-72-blue.jpg",
+    "image": "/static/img/tatra-72-blue.jpg",
     "details": {
       "description":"72cm (28inch) long Tatra dump truck for outdoor fun.",
       "metadata":{
@@ -133,7 +133,7 @@
       },
       "images": [
         {
-          "src": "static/img/tatra-72-blue.jpg",
+          "src": "/static/img/tatra-72-blue.jpg",
           "caption": ""
         }
       ]
@@ -293,7 +293,7 @@
       "currency": "GBP",
       "colour": "Army Tatra classic"
     },
-    "image": "static/img/army-tatra-classic.jpg",
+    "image": "/static/img/army-tatra-classic.jpg",
     "details": {
       "description":"30cm (12inch) long classic army Tatra.",
       "metadata":{
@@ -303,7 +303,7 @@
       },
       "images": [
         {
-          "src": "static/img/army-tatra-classic.jpg",
+          "src": "/static/img/army-tatra-classic.jpg",
           "caption": ""
         }
       ]
