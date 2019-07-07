@@ -34,7 +34,9 @@ const Section = (props) => {
 const SectionMiddle = (props) => (
     <section className={'bg-dark text-white  py-5 '}>
         <Container className={"text-center"}>
-            <h1>{props.sectionData.label}</h1>
+            <h1>
+                <div dangerouslySetInnerHTML={{__html:props.sectionData.label}} ></div>
+            </h1>
         </Container>
     </section>
 

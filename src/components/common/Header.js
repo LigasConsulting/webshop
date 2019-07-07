@@ -14,7 +14,7 @@ const Header = (props) => {
                 <Row className={'text-bg'}>
                     <Col lg={10} className={'mx-auto'}>
                         <h1>
-                            <strong>{props.headerData.title}</strong>
+                            <strong dangerouslySetInnerHTML={{__html:props.headerData.title}}>{}</strong>
                         </h1>
                         <hr/>
                     </Col>
