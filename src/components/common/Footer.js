@@ -12,11 +12,11 @@ const Footer = (props) => (
                     {data.footer.email}
                 </a>
             </p>
-            <div className={'text-center'}>
-                <SocialIcon network={'twitter'} url={'https://twitter.com/toytruckcouk'} />&nbsp;
-                <SocialIcon network={'facebook'} url={'https://fb.me/toytruckcouk'} />&nbsp;
-                <SocialIcon network={'instagram'} url={'https://www.instagram.com/toytruckcouk/'} />
-            </div>
+            {/*<div className={'text-center'}>*/}
+                {/*<SocialIcon network={'twitter'} url={'https://twitter.com/toytruckcouk'} />&nbsp;*/}
+                {/*<SocialIcon network={'facebook'} url={'https://fb.me/toytruckcouk'} />&nbsp;*/}
+                {/*<SocialIcon network={'instagram'} url={'https://www.instagram.com/toytruckcouk/'} />*/}
+            {/*</div>*/}
         </Container>
     </footer>
 );
