@@ -52,7 +52,7 @@ const ItemDetail = ({match}) => {
                     {this.article.details.description}
                 </p>
             </Container>
-            <PayPallAddButton/>
+            {/*<PayPallAddButton/>*/}
         </Container>
     );
 };

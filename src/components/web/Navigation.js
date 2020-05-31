@@ -25,10 +25,10 @@ class Navigation extends PureComponent {
         return (
             <Navbar dark={true} expand={'lg'} fixed={'top'} className="navbar-custom">
                 <Container>
-                    <NavbarBrand href="/">
+                    <NavbarBrand>
                         <Icon className={'nav-logo'} name={'logo'} height={60}/>
                     </NavbarBrand>
-                    <NavbarBrand href="/">Toy Truck</NavbarBrand>
+                    <NavbarBrand>Toy Truck</NavbarBrand>
                     <ShoppingCardIcon className={'d-block d-lg-none'}/>
                     <NavbarToggler onClick={this.toggleNavbar}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
