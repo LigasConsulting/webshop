@@ -33,9 +33,9 @@ class Navigation extends PureComponent {
                     <NavbarToggler onClick={this.toggleNavbar}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar className={'ml-auto'}>
-                            <NavItem className={'d-none d-lg-block'}>
+              {/*              <NavItem className={'d-none d-lg-block'}>
                                 <ShoppingCardIcon/>
-                            </NavItem>
+                            </NavItem>*/}
                             <NavItem>
                                 <NavLink tag={Link} to="/shop">
                                     Shop

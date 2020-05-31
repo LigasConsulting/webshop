@@ -13,7 +13,7 @@ const Item = (props) => {
                 <CardTitle> {`${props.itemData.price.value} ${props.itemData.price.currency}`} </CardTitle>
                 <CardText>{props.itemData.summary}</CardText>
                 <ButtonGroup>
-                    <PayPallAddButton colour={props.itemData.price.colour} buttonId={props.itemData.price.buttonId}/>
+                    {/*<PayPallAddButton colour={props.itemData.price.colour} buttonId={props.itemData.price.buttonId}/>*/}
                     <Button color="link" size="lg" tag={Link} to={'/shop/' + props.itemData.id}>
                         Detail
                     </Button>

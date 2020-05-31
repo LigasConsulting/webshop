@@ -31,8 +31,8 @@ const Home = () => (
             </script>
         </Helmet>
         <Header headerData={data.header} linkTo={SECTION_1_ID}/>
-        {/*<Section id={SECTION_1_ID} sectionData={data.sections.intro}/>*/}
-        {/*<SectionMiddle sectionData={data.sections.label1}/>*/}
+        <Section id={SECTION_1_ID} sectionData={data.sections.intro}/>
+        <SectionMiddle sectionData={data.sections.label1}/>
         <Section sectionData={data.sections.heavyDuty}/>
         <Section sectionData={data.sections.safetyFirst}/>
         <Section sectionData={data.sections.materials}/>
