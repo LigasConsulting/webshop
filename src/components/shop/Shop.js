@@ -49,6 +49,8 @@ const Shop = () => {
             <Container className={'my-5'}>
                 <h1>Dump truck 72cm (28inch)</h1>
                 {this.createItemGrid(shopItemsData.filter(item => item.size === 'large'))}
+                <h1>Small truck 30cm (12inch)</h1>
+                {this.createItemGrid(shopItemsData.filter(item => item.size === 'small'))}
             </Container>
             <Footer/>
         </div>

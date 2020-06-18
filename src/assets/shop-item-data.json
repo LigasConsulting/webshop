@@ -32,7 +32,7 @@
     "title": "Orange dump truck",
     "subtitle": "subtitel",
     "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
-    "outOffStock": true,
+    
     "price": {
       "buttonId": "PBEX58FA2PAV6",
      "value": "25.00",
@@ -61,7 +61,7 @@
     "title": "Khaki dump truck",
     "subtitle": "subtitel",
     "summary": "72cm (28inch) long Tatra dump truck for outdoor fun.",
-    "outOffStock": true,
+    
     "price": {
       "buttonId": "PBEX58FA2PAV6",
      "value": "25.00",
@@ -202,7 +202,7 @@
     "title": "Tatra Digger",
     "subtitle": "subtitel",
     "summary": "30cm (12inch) long digger for sandbox fun.",
-    "outOffStock": true,
+    
     "price": {
       "buttonId": "37BZJM6MU3BZG",
      "value": "13.50",
@@ -287,7 +287,7 @@
     "title": "Army Tatra classic",
     "subtitle": "subtitel",
     "summary": "30cm (12inch) long classic army Tatra.",
-    "outOffStock": true,
+    
     "price": {
       "buttonId": "37BZJM6MU3BZG",
      "value": "13.50",
