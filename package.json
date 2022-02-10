@@ -10,7 +10,7 @@
     "@fortawesome/react-fontawesome": "0.0.20",
     "bootstrap": "^4.1.1",
     "express": "^4.16.4",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "node-sass-chokidar": "^1.4.0",
     "prerender-node": "^3.2.1",
     "prop-types": "^15.6.1",
