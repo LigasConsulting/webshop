@@ -9,7 +9,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/react-fontawesome": "0.0.20",
     "bootstrap": "^4.1.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "node-sass": "^4.12.0",
     "node-sass-chokidar": "^1.4.0",
     "prerender-node": "^3.2.1",
